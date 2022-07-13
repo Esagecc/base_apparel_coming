@@ -14,7 +14,11 @@
 <body>
 
   <div class="main">
-    <img src="images/logo.svg" class="logo" alt="">
+    <div class="header">
+         <img src="images/logo.svg" class="logo" alt="">
+    </div>
+
+ 
     <img src="images/hero-mobile.jpg" class="mob-pic" alt="">
     <article>
       <h1>We're <span>coming soon</span></h1>
@@ -22,17 +26,19 @@
         Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
 
-      <div class="contact">
-        <input type="email" id="email" pattern=".+@globex\.com" placeholder="Email Address">
-
-        <button>
-          <img src="images/icon-arrow.svg" class="submit" alt="">
+      <form class="contact">
+        <input type="email" id="email" placeholder="Email Address">
+        <img src="images/icon-error.svg" class="error-icon" alt="">
+        <button type="submit" class="submit">
+          <img src="images/icon-arrow.svg"  alt="">
         </button>
-      </div>
-
+        <p class="error-text">Please, provide a valid email</p>
+      </form>
     </article>
-
+    
+    <img src="images/hero-desktop.jpg" class="desk-pic" alt="">
   </div>
+
     
   <footer>
     <p class="attribution">
