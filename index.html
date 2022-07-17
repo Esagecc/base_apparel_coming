@@ -17,7 +17,6 @@
     <div class="header">
          <img src="images/logo.svg" class="logo" alt="">
     </div>
-
  
     <img src="images/hero-mobile.jpg" class="mob-pic" alt="">
     <article>
@@ -26,13 +25,13 @@
         Hello fellow shoppers! We're currently building our new fashion store. Add your email below to stay up-to-date with announcements and our launch deals.
       </p>
 
-      <form class="contact">
-        <input type="email" id="email" placeholder="Email Address">
-        <img src="images/icon-error.svg" class="error-icon" alt="">
+      <form action="#">
+        <input name="Email" type="email" id="email-field" placeholder="Email Address">
+        <img src="images/icon-error.svg" class="error-icon" id="error-img" alt="">
         <button type="submit" class="submit">
           <img src="images/icon-arrow.svg"  alt="">
         </button>
-        <p class="error-text">Please, provide a valid email</p>
+        <p class="error-text" id="error-info">Please, provide a valid email</p>
       </form>
     </article>
     
@@ -46,5 +45,6 @@
     Coded by <a href="http://esagewebdev.com/" target="_blank">Elizabeth Cantu</a>.
     </p>
   </footer>
+  <script src="script.js"></script>
 </body>
 </html>
