@@ -37,7 +37,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: https://github.com/Esagecc/base_apparel_coming
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: https://esagecc.github.io/base_apparel_coming/
 
 ## My process
 
